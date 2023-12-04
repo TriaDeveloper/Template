@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Template-RPA
+Version: 0.0.2
+Summary: Template para desenvolvimento RPA
+Home-page: UNKNOWN
+Author: Joao Buso
+Author-email: developer@hypercoe.com
+License: MIT License
+Description: <!-- coding: utf-8 -->
+        
+        ## Template para desenvolvimento RPA.
+        
+        ## Para fazer o download (ou "clonar") um repositÃ³rio do GitHub para o seu computador usando o prompt de comando (Windows), siga estes passos:
+        
+        ## Abrir o terminal/prompt de comando:
+         - **Abra o terminal ou prompt de comando no seu sistema operacional. No Windows, vocÃª pode usar o "Prompt de Comando" ou o PowerShell.**
+        
+        ## Navegar para o diretÃ³rio onde deseja clonar o repositÃ³rio:
+         - **Use o comando cd para mudar para o diretÃ³rio onde vocÃª quer que o repositÃ³rio seja clonado. Por exemplo:**
+        
+            >>> cd caminho/para/diretorio
+        
+        ## Clonar o repositÃ³rio:
+         - **Use o comando git clone seguido da URL do repositÃ³rio que vocÃª copiou anteriormente:**
+        
+            >>> git clone https://github.com/TriaDeveloper/Template
+        
+Keywords: template rpa hypercoe tria software
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

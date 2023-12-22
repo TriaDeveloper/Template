@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 import pyautogui
 ##########################################
-def save_screenshot(caminho_arquivo):
+def save_screenshot():
     # Obter diretorio local
     caminho_arquivo = os.path.dirname(os.path.abspath(__file__))
     caminho_arquivo = f'{caminho_arquivo}\screnshots'

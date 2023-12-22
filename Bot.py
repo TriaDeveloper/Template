@@ -5,10 +5,6 @@ from estrutura_arquivos_py.killprocess import *
 from rpa_hypercoe_log import Funcao
 ##########################################
 
-#Chamada API para Alterar o Status do Bot
-BOT_ID = '<Inserir ID do Bot gerado pelo Portal HyperCoe>'
-ClientToken = '<Inserir token gerado pelo Portal HyperCoe>'
-
 kill_process() #Função para fechar processos que foram setados no config
 
 BOT_Status = 1 # Active=0, Running=1, Paused=2, Error=3

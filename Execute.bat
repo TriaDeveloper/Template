@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-:: Obtem o caminho completo do arquivo .bat
+:: Obtem o caminho completo do arquivo .bat do bot
 set "BAT_DIR=%~dp0"
 
 :: Exibe o caminho

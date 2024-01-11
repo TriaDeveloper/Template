@@ -6,7 +6,7 @@ from estrutura_arquivos_py.killprocess import *
 from rpa_hypercoe_log import Funcao
 ##########################################
 
-kill_process() #Função para fechar processos que foram setados no config
+kill_process() #Função para fechar processos que foram inseridos no config
 
 ## Inserir fluxo de processamento do robô dentro do try:
 try:

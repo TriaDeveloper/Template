@@ -10,7 +10,9 @@ kill_process() #Função para fechar processos que foram inseridos no config
 
 ## Inserir fluxo de processamento do robô dentro do try:
 try:
-    BOT_ID = getBotID()
+    Dados_Json = getBotID()
+    BOT_ID = Dados_Json['BOT_ID']
+    ClientToken = Dados_Json['ClientToken']
     BOT_Status = 1 # Active=0, Running=1, Paused=2, Error=3
     Chamada_API_Status = Funcao.Status(BOT_Status,ClientToken,BOT_ID)
     #Chamada API para Captura da IterationID

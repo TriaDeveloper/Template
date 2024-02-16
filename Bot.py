@@ -1,4 +1,6 @@
 ################ IMPORTS ################
+from estrutura_arquivos_py.install_dependencies import *
+install_dependencies()
 from estrutura_arquivos_py.config import *
 from estrutura_arquivos_py.readBotID import *
 from estrutura_arquivos_py.screnshot import *

@@ -16,5 +16,5 @@ def getBotID():
                      'ClientToken': ClientToken}
             return Valores
     except Exception as erro:
-        print('Erro na etapa de leitura do botId.txt')
-        raise Exception('Erro na etapa de leitura do botId.txt')
+        print('Erro na etapa de leitura do config.txt')
+        raise Exception('Erro na etapa de leitura do config.txt')

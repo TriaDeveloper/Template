@@ -4,7 +4,7 @@ with open("README.md", "r") as arq:
     readme = arq.read()
 
 setup(name='Template_RPA',
-    version='0.0.08',
+    version='0.0.09',
     license='MIT License',
     author='Joao Buso',
     long_description=readme,

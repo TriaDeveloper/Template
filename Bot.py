@@ -1,5 +1,4 @@
 ################ IMPORTS ################
-from estrutura_arquivos_py.install_dependencies import *
 from estrutura_arquivos_py.config import *
 from estrutura_arquivos_py.readBotID import *
 from estrutura_arquivos_py.screnshot import *
@@ -8,7 +7,6 @@ from rpa_hypercoe_log import Funcao
 ##########################################
 
 kill_process() #Função para fechar processos que foram inseridos no config
-
 ## Inserir fluxo de processamento do robô dentro do try:
 try:
     Dados_Json = getBotID()

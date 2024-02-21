@@ -22,7 +22,6 @@ try:
 
 
 
-
 # Registro de log de erro/exceção do bot em caso de erro no processamento
 except Exception as erro:
     print(f"Erro API Status: ", erro) 

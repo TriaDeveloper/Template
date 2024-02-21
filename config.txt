@@ -1,5 +1,0 @@
-{
-    "BotId": "73",
-    "ClientToken": "NzZiMzYzOTctYzBjZS00ZTYyLTliOGItNWI4ZjYxZTJmMGFlLkhZUEVSX0NPRV9UT0tFTg==",
-    "IteracaoID": "97"
-}

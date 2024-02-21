@@ -4,7 +4,7 @@ with open("README.md", "r") as arq:
     readme = arq.read()
 
 setup(name='Template_RPA',
-    version='0.0.14',
+    version='0.0.16',
     license='MIT License',
     author='Joao Buso',
     long_description=readme,
@@ -13,4 +13,4 @@ setup(name='Template_RPA',
     keywords='template rpa hypercoe tria software',
     description=u'Template para desenvolvimento RPA',
     packages=['Template_RPA'],
-    install_requires=['requests'],)
+    install_requires=['requests','psutil','pyautogui','rpa_hypercoe_log'],)
